@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Sicincin HeBat</string>
+    <string name="title_beranda">Beranda</string>
+    <string name="title_layanan">Layanan</string>
+    <string name="title_petanagari">Peta Nagari</string>
+    <string name="title_profil">Profil</string>
+    <string name="title_login">Login</string>
+    <string name="title_pengaduan">Pengaduan</string>
+    <string name="title_lainnya">Lainnya</string>
+    <string name="register">Register</string>
+    <string name="aduan">Aduan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pauh">Pauh salah satu korong/jorong dari Nagari(Desa) Sicincin, Kecamatan 2 x 11 Enam Lingkung,
+        Kabupaten PadangPariama.
+        Berada di Jl.Pariaman - Sicincin, Pauh Tim, 2 x 11 Enam Lingkung dengan kode pos 25584.
+        WaliKorong : Mukhlis
+
+    </string>
+
+    <string name="sicincin">PAsfbsfdjhxbdsbsnjf
+    </string>
+
+    <string name="ladanglaweh">PAsfbsfdjhxbdsbsnjf
+    </string>
+
+    <string name="bari">PAsfbsfdjhxbdsbsnjf
+    </string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+
+</resources>

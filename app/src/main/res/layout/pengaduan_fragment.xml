@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:context=".ui.ui.DetailPengaduan">
+
+        <TextView
+                android:text="Layanan Pengaduan Masyarakat Sicincin
+Klik Laporkan untuk mengirim isi pengaduan kemudian isi form pengaduan"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <!--<Button-->
+                <!--android:id="@+id/btnlaporan"-->
+                <!--android:text="Laporkan"-->
+                <!--android:layout_marginTop="200dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"/>-->
+
+        <!--<ImageButton-->
+                <!--android:layout_marginTop="200dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:src="@drawable/laporkan"-->
+                <!--android:id="@+id/btnlaporan"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"/>-->
+
+        <Button
+                android:text="Laporkan"
+                android:background="@color/hijau"
+                android:textColor="@color/white"
+                android:id="@+id/btnlaporan"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="230dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"/>
+</LinearLayout>

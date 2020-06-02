@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <TextView
+            android:id="@+id/kontak"
+            android:text="Kontak Aduan"
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/kontak2"
+            android:text="Kantor Wali Nagari Sicincin
+Jl.Padang-Bukittinggi Km.46
+Pasar Sicincin
+Telp: 0274-367228
+Aduan Masyarakat Sicincin"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="17dp"
+            android:textColor="@color/hitam"
+            android:layout_below="@+id/kontak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_below="@+id/kontak2"
+            android:text="Layanan Pengaduan Masyarakat Sicincin
+Klik tombol 'KIRIM ADUAN' untuk mengirim isi pengaduan kemudian isi form pengaduan"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/hitam"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:layout_centerVertical="true"
+            android:hint="Aduan"
+            android:visibility="gone"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/aduan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    <Button
+            android:id="@+id/buttonaduan"
+            android:text="KIRIM ADUAN"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="@color/primary2"
+            android:layout_below="@+id/kontak2"
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

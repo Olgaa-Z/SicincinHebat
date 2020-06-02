@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <!--<include layout="@layout/toolbar"/>-->
+
+    <TextView
+            android:layout_below="@+id/toolbar"
+            android:id="@+id/create"
+            android:text="Create an Account"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+        <EditText
+                android:id="@+id/email"
+                android:layout_marginLeft="15dp"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+        <EditText
+                android:id="@+id/password"
+                android:layout_marginLeft="15dp"
+                android:inputType="textPassword"
+                android:textColor="@color/colorAccent"
+                android:hint="Sandi"
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+        <EditText
+                android:id="@+id/confirmpassword"
+                android:layout_marginLeft="15dp"
+                android:inputType="textPassword"
+                android:textColor="@color/colorAccent"
+                android:hint="Konfirmasi Sandi"
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <ProgressBar
+            android:id="@+id/loading"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btnsignup"
+            android:text="DAFTAR"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>

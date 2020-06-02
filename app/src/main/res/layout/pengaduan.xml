@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <TextView
+            android:id="@+id/kontak"
+            android:text="Kontak Aduan"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/kontak2"
+            android:text="Kantor Wali Nagari Sicincin"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/hitam"
+            android:layout_below="@+id/kontak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/kontak3"
+            android:text="Jl.Padang-Bukittinggi Km.46 Pasar Sicincin"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/hitam"
+            android:layout_below="@+id/kontak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/kontak4"
+            android:text="telp.0274-367228"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/hitam"
+            android:layout_below="@+id/kontak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/kontak5"
+            android:text="Aduan masyarakat Sicincin"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/hitam"
+            android:layout_below="@+id/kontak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="350dp"
+            android:background="@color/abu_abu"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="100dp"
+            android:id="@+id/holder"
+            android:layout_marginTop="250dp"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_below="@+id/kontak2"
+                android:text="
+Klik tombol 'KIRIM ADUAN' untuk mengirim pengaduan kemudian isi form pengaduan"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/hitam"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+    <Button
+            android:id="@+id/buttonaduan"
+            android:text="KIRIM ADUAN"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="@color/primary2"
+            android:layout_below="@+id/kontak2"
+            android:layout_marginTop="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

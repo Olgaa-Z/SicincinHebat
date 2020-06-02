@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.hebat.sibat.sibat">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+            android:name=".ui.ui.config.PrefsApplication"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            android:usesCleartextTraffic="true">
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyDOOQyuMLU_hIGvNZK1XRd58yf-dU683SY"/>
+
+        <activity
+                android:name=".ui.ui.MainActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity android:name=".ui.ui.BerandaFragment">
+        </activity>
+        <activity android:name=".ui.ui.LayananFragment">
+        </activity>
+        <activity android:name=".ui.ui.PetanagariFragment">
+        </activity>
+        <activity android:name=".ui.ui.PengaduanFragment">
+        </activity>
+        <activity android:name=".ui.ui.LainnyaFragment">
+        </activity>
+        <activity android:name=".ui.ui.berita.Berita">
+        </activity>
+        <activity android:name=".ui.ui.berita.BeritaAdapter">
+        </activity>
+        <activity android:name=".ui.ui.berita.DetailBerita">
+        </activity>
+        <activity android:name=".ui.ui.DetailPeta">
+        </activity>
+        <activity
+                android:name=".ui.ui.SplashActivity"
+                android:label="@string/app_name"
+                android:noHistory="true"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ui.layanan.Layanan">
+        </activity>
+        <activity android:name=".ui.ui.layanan.LayananAdapter">
+        </activity>
+        <activity android:name=".ui.ui.layanan.DetailLayanan">
+        </activity>
+        <activity android:name=".ui.ui.DetailPengaduan">
+        </activity>
+        <activity android:name=".ui.ui.ProfilFragment">
+        </activity>
+        <activity android:name=".ui.ui.Signup">
+        </activity>
+        <activity android:name=".ui.ui.Login">
+        </activity>
+        <activity android:name=".ui.ui.Pengaduan">
+        </activity>
+        <activity
+                android:name=".Register"
+                android:label="@string/register"
+                android:parentActivityName=".ui.ui.MainActivity">
+        </activity>
+        <activity android:name=".Aduan">
+        </activity>
+        <activity
+                android:name=".ui.ui.Detailaduan"
+                android:label="@string/aduan"
+                android:parentActivityName=".ui.ui.MainActivity">
+        </activity>
+        <activity android:name=".ui.ui.pemberitahuan.Pemberitahuan">
+        </activity>
+        <activity android:name=".ui.ui.pemberitahuan.PemberitahuanAdapter">
+        </activity>
+        <activity android:name=".ui.ui.pemberitahuan.DetailPemberitahuan">
+        </activity>
+        <activity android:name=".ui.ui.Video">
+        </activity>
+        <activity android:name=".ui.ui.Tentang">
+        </activity>
+        <activity android:name=".ui.ui.Privacy">
+        </activity>
+        <activity android:name=".ui.ui.lembaga.Lembaga">
+        </activity>
+        <activity android:name=".ui.ui.lembaga.LembagaAdapter">
+        </activity>
+        <activity android:name=".ui.ui.lembaga.DetailLembaga">
+        </activity>
+        <activity android:name=".ui.ui.potensinagari.Potensinagari">
+        </activity>
+        <activity android:name=".ui.ui.potensinagari.PotensinagariAdapter">
+        </activity>
+        <activity android:name=".ui.ui.potensinagari.DetailPotensinagari">
+        </activity>
+        <activity android:name=".ui.ui.Profilnagari.Profilnagari">
+        </activity>
+        <activity android:name=".ui.ui.Profilnagari.ProfilnagariAdapter">
+        </activity>
+        <activity android:name=".ui.ui.Profilnagari.DetailProfilnagari">
+        </activity>
+        <activity android:name=".ui.ui.penduduk.Penduduk">
+        </activity>
+        <activity android:name=".ui.ui.penduduk.PendudukAdapter">
+        </activity>
+        <activity android:name=".ui.ui.penduduk.DetailPenduduk">
+        </activity>
+        <activity android:name=".ui.ui.programdesa.Programnagari">
+        </activity>
+        <activity android:name=".ui.ui.programdesa.ProgramnagariAdapter">
+        </activity>
+        <activity android:name=".ui.ui.programnagari.DetailProgramnagari">
+        </activity>
+        <!-- <activity android:name=".ui.ui.programdesa.Detailrogramnagari"> -->
+        <!-- </activity> -->
+        <activity android:name=".ui.ui.potensi.Potensi">
+        </activity>
+        <activity android:name=".ui.ui.potensi.PotensiAdapter">
+        </activity>
+        <activity android:name=".ui.ui.potensi.DetailPotensi">
+        </activity>
+    </application>
+
+</manifest>

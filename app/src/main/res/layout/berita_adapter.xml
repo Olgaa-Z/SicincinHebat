@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <!--<ImageView-->
+            <!--android:src="@drawable/newssss"-->
+            <!--android:id="@+id/gambar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"/>-->
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="@color/white"
+        android:id="@+id/holder"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/image"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_home_black_24dp" />
+
+        <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+            <TextView
+                    android:id="@+id/judul"
+                    android:layout_marginTop="10dp"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/hitam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="judul berita" />
+
+            <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:src="@drawable/jamdua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                <TextView
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/tanggal"
+                        android:textColor="@color/hitam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="13dp"
+                        android:text="Tanggal" />
+
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/id_berita"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/hitam"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content" />
+
+            <!--<Button-->
+                    <!--android:layout_gravity="right"-->
+                    <!--android:id="@+id/btnread"-->
+                    <!--android:text="Baca..."-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:background="@color/secondprimary"-->
+                    <!--android:layout_marginTop="30dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+            <TextView
+                    android:id="@+id/kliktext"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/secondprimary"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</RelativeLayout>
+</LinearLayout>

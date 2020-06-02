@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="160dp"
+            android:id="@+id/holder"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+        <!--<TextView-->
+                <!--android:text="Profil :"-->
+                <!--android:textSize="24dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="@color/hitam"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"/>-->
+
+        <TextView
+                android:id="@+id/email"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textColor="@color/hitam"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <Button
+            android:id="@+id/logout"
+            android:text="KELUAR"
+            android:textSize="19dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:background="@color/primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
